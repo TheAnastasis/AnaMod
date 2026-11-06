@@ -1,0 +1,11 @@
+/*
+!/.gitignore
+!/README.md
+!/CHANGELOG.md
+!/LICENSE
+!/.github/
+!/patcher/
+/patcher/.cache/
+/patcher/.config/
+/patcher/fyne-cross/
+patcher/data/anamod-data.zip
