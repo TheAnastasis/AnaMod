@@ -27,8 +27,8 @@ AnaMod is a comprehensive mod for Tony Hawk's Project 8 (both XBox 360 AND PS3) 
 
 ## INSTALLATION
 1.   Download AnaMod from the Releases tab based on your operating system.
-2.   Run `AnaMod-Patcher-X` in its own folder
-     -    Note: On Linux, you will need to use `chmod +x ./AnaMod-Patcher-Linux` to allow it to execute! Windows SmartScreen *may* prompt you about it, but this can be ignored.
+2.   Run `AnaMod-X` in its own folder
+     -    Note: On Linux, you will need to use `chmod +x ./AnaMod-X` to allow it to execute! Windows SmartScreen *may* prompt you about it, but this can be ignored.
      -    Once you run it, you will see a `patcher.log` and `anamod.ini` file.
           -    `patcher.log` gives more analysis of the patching process.
           -    `anamod.ini` keeps track of your THP8 folder location and your RPCS3 install location.
