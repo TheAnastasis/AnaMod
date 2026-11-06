@@ -33,11 +33,8 @@
 -   Added
     -   Added the ability to switch to pro skaters as your CAS.
     -   Added the ability to choose your first deck graphic.
-        -   Option only work on custom CAS' and not on Pro Skaters.
     -   Added the ability to choose your griptape.
-        -   Option only work on custom CAS' and not on Pro Skaters.
     -   Added the ability to change your wheel colors.
-        -   Option only work on custom CAS' and not on Pro Skaters.
   
 ## Achievements System
 -   Added
