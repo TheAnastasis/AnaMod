@@ -1,4 +1,46 @@
-# v1.0.0 - The Initial Release
+# v1.1.0
+-   Added
+    -   Added the ability for the game to remember your time of day upon saving.
+    -   Added new code that reduces the amount of pedestrians depending on time of day; 10 is the default (and maximum) at noon, with it gradually going down around dusk/dawn and until midnight when it drops to 3.
+    -   Added the ability for players to edit their tricks Online when waiting for a new game to start.
+    -   Added new UI elements for Competitions and Owned Spot Challenges to showcase score thresholds in CAREER mode (disabled in SPEEDRUN mode).
+        -   Comps: Qualifiers show the required points to get into AM, PRO, and SICK; in the Competition, then it will show what you need to complete it (reminder there is ~1 point sway from RNG).
+        -   Owned Spot Challenges: Shows the points required to get Sick (and of course you also need all objects touched).
+
+-   Fixed
+    -   Fixed an issue where the shuffle bonus text was appearing below the clean/sloppy text.
+    -   Fixed an issue where HORSE was available in Online Play and caused a crash when it should've appeared in only Split Screen.
+    -   Fixed an issue where you could not re-select `Beaver Valley` (aka the entire game world) if you switched levels in Online. 
+    -   Fixed an issue where you could not edit special tricks when the `Edit Tricks` menu was avaialble in CAREER mode.
+    -   Fixed an issue where the Achievement Unlocked text would still appear when the game is paused.
+    -   Fixed an issue where the Time of Day suddenly changes for a few frames after certain cutscenes.
+    -   Fixed an issue where the Lyn-Z/Nyjah Pro Challenge's UI would clip with the Speedrun Display.
+        -   When the Speedrun Display is enabled, that scoreboard is moved to the right.
+    -   Fixed an issue where the Speedrun Display would appear in certain cutscenes and in-game movies when it shouldn't.
+        -   Added an additional check that, if a cutscene is playing, it will hide it. For movies, I just forgot to tell it to destroy the UI option.
+    -   -   Fixed an issue with Ryan Sheckler's Pro Challenge failing to fully build the required steps to perform each step of the goal.
+        -   This one I never knew of until Jarl did it by accident. In short, if you cancel out of one of Ryan's goals at a specific point, only portions of the goal's steps will appear at the top-right.
+        -   The fix here is to just give you all of the steps at once, instead of trying to be cute and do it one by one.
+
+-   Changed
+    -   Changed the online behavior so you can launch matches when you are alone.
+    -   Changed the online match options so it can only create "Player" lobbies.
+        -   If online is figured out in the futrue, maybe this could open up again? Right now, it is was useless.
+    -   Changed "IGT" to "LRT" in the Speedrun Display menu.
+    -   Changed the Level Select order to the usual unlock progression and renamed them to their in-game names instead of their coded names (e.g. `CRETEPARK` -> `SKATE PARK`)
+    -   Changed the `FPS Display` option in-game to appear on the top-left.
+
+-   Removed
+    -   Removed several Debug options that either do not work or they cause a crash.
+        -   Full list: `Screen Calibration`, `Graphic Test`, `Show Skater Pos` (already fulfilled by the Speedrun Display), 
+        -   Most of them, from what I can see, just are missing certain files.
+    -   Removed the `CURRENT PLAYERS` option in Online play for now.
+        -   This pretty much only works on Xbox Live - I'd have to figure out how to populate this, which will require probably another RPCS3 patch.
+    -   Removed the Online Achievements, since there is no way for them to be collected right now.
+        -   I meant to disable them before v1; will re-introduce them (and maybe some more) whenever the new Online update comes out!
+
+***
+# v1.0.0
 
 ## Main Game
 -   Added
