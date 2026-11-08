@@ -1,5 +1,5 @@
 # AnaMod for Tony Hawk's Project 8
-#### v1.1.0
+#### v1.1.2
 
 AnaMod is a comprehensive mod for Tony Hawk's Project 8 (both XBox 360 AND PS3) that works to enhance the base game with new features for speedrunners, but also adds a bunch of stuff for beginners and veterans of the game. 
 

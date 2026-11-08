@@ -1,4 +1,4 @@
-# v1.1.0
+# v1.1.2
 -   Added
     -   Added the ability for the game to remember your time of day upon saving.
     -   Added new code that reduces the amount of pedestrians depending on time of day; 10 is the default (and maximum) at noon, with it gradually going down around dusk/dawn and until midnight when it drops to 3.
