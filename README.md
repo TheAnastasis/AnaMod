@@ -1,12 +1,12 @@
 # AnaMod for Tony Hawk's Project 8
-#### v1.1.2
+#### v1.2.0
 
 AnaMod is a comprehensive mod for Tony Hawk's Project 8 (both XBox 360 AND PS3) that works to enhance the base game with new features for speedrunners, but also adds a bunch of stuff for beginners and veterans of the game. 
 
 ## FEATURES
 -    **Vanilla+**: Vanilla's physics and gameplay are untouched (outside of crash fixes and softlocks) - all of the new changes are behind menus, so you enable what you want!
 -    **QoL Improvements**: Improvements are made to allow skipping every cutscene, allow the user to switch the back button (from Triangle/Y to Circle/B), disable Tips, disable filmer cameras, and much more!
--    **Achievements**: (PS3) All non-online achievements have been added and trigger the same way as they did on the 360 version. New speedrun achievements have been added!
+-    **Achievements**: All non-online achievements have been added and trigger the same way as they did on the 360 version. New speedrun achievements have been added!
 -    **Speedrunning Practice**: Reworked Speedrun Overlay from THP8 Revamped with the ability to dynamically add new information like coordinates! AND, with the added ability to see what is needed to unlock all of the goals in the game!
 -    **New Speedrun Mode**: Play through Any%, Rank 1, and 100% that follows the vanilla game's rules, but with the ability to use custom CAS', skip the first Tony cutscene, and see your load-removed time upon hitting Rank 8, 4, and 1!
 -    **Time of Day**: Time of Day returns! Play through Project 8 on 24-minute and 48-minute days!

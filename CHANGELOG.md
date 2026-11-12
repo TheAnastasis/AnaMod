@@ -1,3 +1,27 @@
+# v1.2.0
+### Note: v1.2.0 or higher is/will required if you want to speedrun this game on SRC/thps.run.
+-   Added
+    -   Added a better check to stat and special trick resets.
+    -   Added the ability to select Dawn, Noon, Dusk, and Midnight as your permanent time of day.
+
+-   Fixed
+    -   Fixed an issue where, if you had the achievement pop-ups on, the game would crash when you attain Rank 1 ([#3](https://github.com/TheAnastasis/AnaMod/issues/3)).
+    -   Fixed an issue where a skater with a longer name than usual (Lyn-Z) would crash the player when you play online ([#5](https://github.com/TheAnastasis/AnaMod/issues/5)).
+        -   Fixed an issue where the `PRESS X/A TO SKIP` UI element on the bottom could fail to be destroyed after a cutscene.
+            -   This was a race condition on 360. That UI element is supposed to watch for X/A and skip the cutscene it spawned from. For at least the Unlock Factory goal, it technically finished the goal mid-cutscene due to how the triggers work. This essentially placed the script into a weird limbo state and kept eating X/A inputs forever. Cool.
+    -   Fixed an issue where your stats would not be properly reset when you keep your skater between story modes.
+    -   Fixed an issue where certain debug/career features (e.g. goal info) were not disabled in SPEEDRUN mode.
+    -   Fixed an issue where Animal Chin's progress was no being cleared.
+        -   Funnily enough, this is a vanilla bug and resulted in NG+. So, this kinda kills NG+ speedruns. So, if you still wanna do that, go with v1.1.2 lol
+    -   Fixed an issue where the UI elements for competitions would render in th wrong location.
+
+-   Changed
+    -   Changed the time of day to start at noon/disabled when CAREER mode resets.
+        -   SPEEDRUN mode is always set to Noon.
+    -   Changed the Zombie Cut griptape so it no longer appears on the Xbox 360 version ([#6](https://github.com/TheAnastasis/AnaMod/issues/6)).
+        -   Will work on this over time; it will continue to work on PS3 but is coded to not appear on 360.
+    -   Changed the griptapes menu so that it will appear for pro skaters and CAS', even after initial creation.
+***
 # v1.1.2
 -   Added
     -   Added the ability for the game to remember your time of day upon saving.
@@ -18,7 +42,7 @@
         -   When the Speedrun Display is enabled, that scoreboard is moved to the right.
     -   Fixed an issue where the Speedrun Display would appear in certain cutscenes and in-game movies when it shouldn't.
         -   Added an additional check that, if a cutscene is playing, it will hide it. For movies, I just forgot to tell it to destroy the UI option.
-    -   -   Fixed an issue with Ryan Sheckler's Pro Challenge failing to fully build the required steps to perform each step of the goal.
+    -   Fixed an issue with Ryan Sheckler's Pro Challenge failing to fully build the required steps to perform each step of the goal.
         -   This one I never knew of until Jarl did it by accident. In short, if you cancel out of one of Ryan's goals at a specific point, only portions of the goal's steps will appear at the top-right.
         -   The fix here is to just give you all of the steps at once, instead of trying to be cute and do it one by one.
 
@@ -32,7 +56,7 @@
 
 -   Removed
     -   Removed several Debug options that either do not work or they cause a crash.
-        -   Full list: `Screen Calibration`, `Graphic Test`, `Show Skater Pos` (already fulfilled by the Speedrun Display), 
+        -   Full list: `Screen Calibration`, `Graphic Test`, and `Show Skater Pos` (already fulfilled by the Speedrun Display).
         -   Most of them, from what I can see, just are missing certain files.
     -   Removed the `CURRENT PLAYERS` option in Online play for now.
         -   This pretty much only works on Xbox Live - I'd have to figure out how to populate this, which will require probably another RPCS3 patch.
